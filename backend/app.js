@@ -8,9 +8,10 @@ app.use(cors());
 app.use(express.json());
 app.use("/api/user", router);
 app.use("/api/blog", blogRouter);
-mongoose.connect("mongodb+srv://pasindu:pasindu123@cluster0.nihuzp0.mongodb.net/blogs?retryWrites=true&w=majority")
+mongoose.connect("mongodb+srv://pasindugura123:maHimGCcRtDzHtjn@cluster0.skeibfa.mongodb.net/mern?retryWrites=true&w=majority")
   .then(() => app.listen(5000))
   .then(() =>
     console.log("Connected TO Database and Listening TO Localhost 5000")
   )
   .catch((err) => console.log(err));
+ 
